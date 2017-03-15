@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../static/css/pystyle.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="info"></div>
+		<div id="title">
+			<h1>Pydoku</h1>
+			<p>Input any Sudoku puzzle you would like solved . . .</p>
+			<p id="error"></p>
+		</div>
+		<div id="puzzle">
+			<ul id="puz">
+				<div class="row" id="zero">
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+				</div>
+				<div class="row" id="one">
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+				</div>
+				<div class="row" id="two">
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+				</div>
+				<div class="row" id="three">
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+				</div>
+				<div class="row" id="four">
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+				</div>
+				<div class="row" id="five">
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+				</div>
+				<div class="row" id="six">
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+				</div>
+				<div class="row" id="seven">
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+				</div>
+				<div class="row" id="eight">
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li class="right"><textarea maxlength="1"></textarea></li>
+					<li class="left"><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+					<li><textarea maxlength="1"></textarea></li>
+				</div>
+			</ul>
+		</div>
+		<div id="but">
+			<a id="solve">solve</a>
+		</div>
+		<div id="bottom">
+			<p>Created by David Lipson, 08.15</p>
+		</div>
+
+		<script src="../static/js/pydoku.js"></script>
+	</body>
+</html>
